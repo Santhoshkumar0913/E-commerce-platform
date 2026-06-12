@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 import logo from '../Assets/logo.png'
-import cart_icon from '..//cart_icon.png'
-import { Link, Links } from 'react-router-dom'
+import cart_icon from '../Assets/cart_icon.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-login-cart">
             <Link to='/login'><button>Login</button></Link>
-            <link to='/cart'><img src={cart_icon} alt="" /></link>
+            <Link to='/cart'><img src={cart_icon} alt="" /></Link>
             <div className="nav-cart-count">0</div>
         </div>
     </div>

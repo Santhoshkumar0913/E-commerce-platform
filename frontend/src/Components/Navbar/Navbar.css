@@ -1,20 +1,23 @@
 .navbar{
     display: flex;
-    justify-self: space-around;
+    justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
 
 }
+
 .nav-logo{
     display: flex;
-    align-items: ceter;
+    align-items: center;
     gap: 10px;
 }
-.naav-logo p{
+
+.nav-logo p{
     color: #171711;
     font-size: 38px;
     font-weight: 600;
 }
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -24,6 +27,7 @@
     font-size: 20px;
     font-weight: 500;
 }
+
 .nav-menu li{
     display: flex;
     flex-direction: column;
@@ -37,7 +41,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background-color: #FF4141;
+    background: #FF4141;
 }
 .nav-login-cart{
     display: flex;
