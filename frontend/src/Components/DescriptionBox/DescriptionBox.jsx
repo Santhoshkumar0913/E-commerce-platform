@@ -4,7 +4,17 @@ import './DescriptionBox.css'
 const DescriptionBox = () => {
   return (
     <div className='descriptionbox'>
-      
+      <div className="descriptionbox-navigator">
+        <div className="descriptionbox-nav-box">Description</div>
+        <div className="descriptionbox-nav-box fade">Reviews</div>
+      </div>
+      <div className="descriptionbox-description">
+        <p>An e-commerce website is an online platform that facilitates busying
+          and selling products or services over internet.</p>
+          <p>
+            It typically displays products or services.
+          </p>
+      </div>
     </div>
   )
 }
